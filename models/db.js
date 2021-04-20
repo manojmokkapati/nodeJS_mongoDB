@@ -6,6 +6,7 @@ mangoose.connect('mongodb://localhost:27017/studentDB',{
 },
 err => {
     if(!err) {
+    
         console.log('connection succeeded')
     } else {
         console.log('Error in connection'+err)
